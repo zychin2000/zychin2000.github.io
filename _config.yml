@@ -6,19 +6,20 @@
 # --- Required options --- #
 
 # Name of website
-title: My Website
+title: Home
 
 # Your name to show in the footer
-author: Some Person
+author: Joshua (Zheng Yao) Chin
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Projects: "projects"
+  # Resources:
+  #   - Beautiful Jekyll: "https://beautifuljekyll.com"
+  #   - Learn markdown: "https://www.markdowntutorial.com/"
+  # Author's home: "https://chinzhengyao.com"
 
 # --- Logo --- #
 
@@ -39,13 +40,13 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
-#  reddit: yourname
+  email: "zychin2000@gmail.com"
+  # facebook: deanattali
+  github: zychin2000
+#   twitter: daattali
+#   patreon: DeanAttali
+#   youtube: c/daattali
+#   reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
@@ -77,7 +78,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+# url-pretty: "MyWebsite.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -117,8 +118,8 @@ footer-link-col: "#404040"
 #mobile-theme-col: "#0085A1"
 
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
-#site-css:
-#  - "/assets/css/custom-styles.css"
+site-css:
+  - "/assets/css/home.css"
 
 # If you have common JavaScript files that should be included in every page, list them here
 #site-js:
