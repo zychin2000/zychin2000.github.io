@@ -1,17 +1,27 @@
 ---
 layout: home
 title: Joshua Chin
-subtitle: Software Engineer
+subtitle: Software Engineer, San Jose State University 
 ---
+
 
 <div class="container-fluid full-width parallax">
 <div class= "container-md" style="padding-top: 100px; padding-bottom: 100px">
 <div class="jumbotron">
-<p>Hi! I am a software engineer currently studying at San Jose State University.</p>
+<h2> Hi! I am a <span style="color: brown;" id="typed"></span></h2>
+
+<div id="typed-strings">
+  <p>Software Engineer</p>
+  <p>Full Stack Developer</p>
+  <p>React Native Developer</p>
+  <p>Spring Boot Developer</p>
+  <p>Curious Explorer</p>
+</div>
+
 <div class="centered">
   <a class="btn btn-success btn-lg get-started-btn" href="/resume.pdf">Resume</a>
   <a class="btn btn-primary btn-lg get-started-btn" href="https://www.linkedin.com/in/zhengyao-joshua-chin/">LinkedIn</a>
-  <a class="btn btn-primary btn-lg get-started-btn" href="https://github.com/zychin2000">Github</a>
+  <a class="btn btn-warning btn-lg get-started-btn" href="https://github.com/zychin2000">Github</a>
 </div>
 <p>You can browse through my various projects at the project page.</p>
 <p>If there are any interesting things I've discovered, I'll post them here!</p>
@@ -22,7 +32,16 @@ subtitle: Software Engineer
 
 
 
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+<script>
+  var typed = new Typed('#typed', {
+    stringsElement: '#typed-strings',
+    loop: true,
+    typeSpeed: 100,
+    backDelay:1000,
 
+  });
+</script>
 
     
 
